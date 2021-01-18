@@ -1,0 +1,184 @@
+/******************  QUERY  ******************/
+
+/*sm*/
+@media screen and (max-width: 540px){
+    .section-menu{
+        width: 100%;
+        height: var(--height-menu);
+        padding: 0 30px;
+        position: fixed;
+        background-color: var(--color-white);
+        flex-direction: row-reverse;
+    }
+    .section-menu span,
+    .section-menu a{
+        color: #000000;
+    }
+    .sticky{
+        background-color: var(--color-white);
+    }
+    .sticky span:nth-child(1){
+        color: #FC6A42;
+    }
+    .sticky span:nth-child(2){
+        color: #648CFF;
+    }
+    .section-menu-item{
+        width: 100%;/**/
+        height: calc(100vh - var(--height-menu));
+        position: fixed;
+        top: var(--height-menu);
+        left: 0;
+        background-color: var(--color-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-100%,0);
+        transition: transform 0.3s ease;
+    }
+    .panel-btn{
+        display: block;
+        border: none;
+        padding: 0;
+        outline: none;
+    }
+    .hamburger-inner{
+        width: 70%;
+        background-color: #000000;
+        left: 15%;
+    }
+    
+    .hamburger-inner::before,
+    .hamburger-inner::after{
+        background-color: #000000;
+        width: 100%;
+    }
+    
+    .hamburger-inner:hover{
+        background-color:#000000 !important;
+    }
+    .hamburger:hover{
+        opacity: 1 !important;
+    }
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after {
+        background-color: #000000;
+    }
+    .menu-active{
+        transform: translate(0,0);
+    }
+    .section-menu-item ul{
+        display: block;
+        text-align: center;
+    }
+    
+    .section-menu-item ul li a{
+        font-size: 25px;
+        margin: 30px 0;
+        display: block;
+        color: var(--color-black);
+        font-weight: bold;
+    }
+    .section-social-media{
+        display: none;
+    }
+
+}
+
+/*md*/
+@media (min-width: 541px) and (max-width: 720px){
+    .section-menu{
+        width: 100%;
+        height: var(--height-menu);
+        padding: 0 30px;
+        position: fixed;
+        background-color: var(--color-white);
+        flex-direction: row-reverse;
+    }
+    .section-menu span,
+    .section-menu a{
+        color: #000000;
+    }
+    .sticky{
+        background-color: var(--color-white);
+    }
+    .sticky span:nth-child(1){
+        color: #FC6A42;
+    }
+    .sticky span:nth-child(2){
+        color: #648CFF;
+    }
+    .section-menu-item{
+        width: 100%;/**/
+        height: calc(100vh - var(--height-menu));
+        position: fixed;
+        top: var(--height-menu);
+        left: 0;
+        background-color: var(--color-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-100%,0);
+        transition: transform 0.3s ease;
+    }
+    .panel-btn{
+        display: block;
+        border: none;
+        padding: 0;
+        outline: none;
+    }
+    .hamburger-inner{
+        width: 70%;
+        background-color: #000000;
+        left: 15%;
+    }
+    
+    .hamburger-inner::before,
+    .hamburger-inner::after{
+        background-color: #000000;
+        width: 100%;
+    }
+    
+    .hamburger-inner:hover{
+        background-color:#000000 !important;
+    }
+    .hamburger:hover{
+        opacity: 1 !important;
+    }
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after {
+        background-color: #000000;
+    }
+    .menu-active{
+        transform: translate(0,0);
+    }
+    .section-menu-item ul{
+        display: block;/**/
+        text-align: center;/**/
+    }
+    
+    .section-menu-item ul li a{
+        font-size: 25px;
+        margin: 30px 0;
+        display: block;
+        color: var(--color-black);
+        font-weight: bold;
+    }
+    .section-social-media{
+        display: none;
+    }
+}
+
+/*lg*/
+@media (min-width: 721px) and (max-width: 1000px){
+    .section-social-media{
+        display: none;
+    }
+}
+
+/*xl*/
+@media screen and (min-width:1200px){
+    
+}

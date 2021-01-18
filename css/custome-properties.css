@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --color-primary: #648CFF;
+    --color-white: #FFFFFF;
+    --color-gray: #D8E2FF;
+    --color-black: #000000;
+    --facebook: #4064AC;
+    --twitter: #1C9CEA;
+    --instagram: #D63782;
+    --linkedin: #2C2E30;
+
+    --font-logo: 'Space Mono', monospace;
+    --font-menu: 'Montserrat', sans-serif;
+
+    --height-menu: 13vh;
+    --size-logo: 25px;
+    --size-menu: 14px;
+    --size-social-media: 16px;
+}
+
+body::-webkit-scrollbar{
+    width: 3px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--color-primary);
+}
+
+
+
+
+/******************  QUERY  ******************/
+
+/*sm*/
+@media screen and (max-width: 540px){
+
+}
+
+/*md*/
+@media (min-width: 541px) and (max-width: 720px){
+    
+}
+
+/*lg*/
+@media (min-width: 721px) and (max-width: 100px){
+    
+}
+
+/*xl*/
+@media screen and (min-width:1200px){
+    
+}
